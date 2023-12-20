@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Gen3 {
+public class GenThree {
     public static void main (String[] args) {
         Random r = new Random();
         /* the random ints generate a random number between 0 and the maximal value selected minus the minimal value,

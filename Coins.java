@@ -12,6 +12,6 @@ public class Coins {
                 quarters++;
             }
         }
-        System.out.println ("use " + quarters + " quarters and " + cents + " cents.");
+        System.out.println ("Use " + quarters + " quarters and " + cents + " cents");
     }
 }

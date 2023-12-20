@@ -1,14 +1,14 @@
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-public class Gen3Test {
+public class GenThreeTest {
     public static void main(String[] args) {
         String min = args[0];
         String max = args[1];
-        testGen3(min, max);
+        testGenThree(min, max);
     }
 
-    public static void testGen3 (String min, String max) {
+    public static void testGenThree (String min, String max) {
         int count = 0;
 
         while (count < 5) {
@@ -21,7 +21,7 @@ public class Gen3Test {
             PrintStream originalOut = System.out;
             System.setOut(printStream);
             String[] range = {min, max};
-            Gen3.main(range); // Run the InOrder program
+            GenThree.main(range); // Run the InOrder program
 
             // Reset the standard output
             System.setOut(originalOut);
